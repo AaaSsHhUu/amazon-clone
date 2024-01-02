@@ -21,15 +21,26 @@
 }
 
 .nav-left img{
-    width: 123px;
+    width: 100px;
     margin: 0 1rem;
     cursor: pointer;
 }
+
+.nav-left img:hover{
+    outline: 2px solid white;
+}
+
 .nav-left p{
+    padding: 0.75rem;
     color: #777;
     font-size: 0.75rem;
     cursor: pointer;
 }
+
+.nav-left p:hover{
+    outline: 2px solid white;
+}
+
 .nav-left p span{
     color: white;
     font-weight: 600;
@@ -153,4 +164,48 @@
 }
 .cart i{
     font-size: 2rem;
+}
+
+#nav-bottom{
+    height: 35px;
+    background: #232f3e;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.nav-options{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+.nav-options i{
+    margin: 0 5px;
+    font-size: 1rem;
+}
+.nav-options button{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-options:hover{
+    outline: 1px solid white;
+}
+
+#nav-bottom a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.90rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+#nav-bottom a:hover{
+    outline: 1px solid white;
 }
