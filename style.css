@@ -236,7 +236,9 @@
 
 .card-container{
     display: flex;
-    padding: 0 20px;
+    margin-top: 20%;
+    padding: 0 1%;
+    background: transparent;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -248,11 +250,12 @@
     height: 420px;
     cursor: pointer;
     padding: 0.5rem 1rem;
+    margin: 8px 8px;
 }
 .card img{
     width: 280px;
-    height: 100%;
-    margin: 0.5rem 0;
+    height: 303px;
+    margin: 1rem 0;
 }
 
 .card h1{
