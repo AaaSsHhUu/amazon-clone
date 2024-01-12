@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: #c6cdd2;
+}
+
 #header{
     height: 70px;
     background: #131921;
@@ -230,36 +234,37 @@
     background-image : linear-gradient(transparent,rgba(255,255,255,0.7)),url(assets/hero_image.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
-    align-items: center;
+    padding-top: 200px;
 }
 
 .card-container{
+    background: rgba(255,255,255,0.6);
     display: flex;
-    margin-top: 20%;
-    padding: 0 1%;
+    padding: 0 20px;
     background: transparent;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .card{
     background: #fff;
-    width: 312px;
+    width: 300px;
     height: 420px;
     cursor: pointer;
     padding: 0.5rem 1rem;
     margin: 8px 8px;
 }
 .card img{
-    width: 280px;
+    width: 268px;
     height: 303px;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .card h1{
     margin: 0.5rem 0;
+    font-size: 1.25rem;
 }
 
 .card a{
@@ -270,4 +275,35 @@
 
 .card:hover a{
     color: orange;
+}
+
+.deal-img{
+    width: 268px;
+    height: 303px;
+    /* border: 1px solid black; */
+    margin: 0.4rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    padding: 0 1rem;
+    
+}
+
+.deal img{
+    width: 100px;
+    height: 100px;
+}
+
+.deal span{
+    background: crimson;
+    color: white;
+    font-size: 0.80rem;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+.deal p{
+    color: crimson;
+    font-weight: 600;
 }
