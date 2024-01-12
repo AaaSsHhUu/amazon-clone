@@ -113,8 +113,12 @@
     align-items: center;
     font-size: 0.85rem;
     font-weight: bold;
-    margin: 0 0.5rem;
+    padding: 1rem 0.5rem;
     cursor: pointer;
+    
+}
+.lang:hover{
+    outline: 2px solid white;
 }
 
 .lang img{
@@ -130,8 +134,11 @@
 .sign-in{
     color: #fff;
     font-size: 0.75rem;
-    margin: 0 0.5rem;
+    padding: 1rem 0.5rem;
     cursor: pointer;
+}
+.sign-in:hover{
+    outline: 2px solid white;
 }
 .sign-in p span{
     font-weight: bold;
@@ -143,8 +150,11 @@
 }
 
 .order{
-    margin: 0 1rem;
+    padding: 1rem 0.5rem;
     cursor: pointer;
+}
+.order:hover{
+    outline: 2px solid white;
 }
 .order p{
     color: #fff;
@@ -156,11 +166,14 @@
 }
 
 .cart{
-    margin: 0 0.5rem;
+    padding: 0.80rem 0.5rem;
     display: flex;
     align-items: baseline;
     color: #fff;
     cursor: pointer;
+}
+.cart:hover{
+    outline: 2px solid white;
 }
 .cart i{
     font-size: 2rem;
@@ -208,4 +221,50 @@
 
 #nav-bottom a:hover{
     outline: 1px solid white;
+}
+
+/* MAIN */
+#main{
+    height: 100vh;
+    width: 100%;
+    background-image : linear-gradient(transparent,rgba(255,255,255,0.7)),url(assets/hero_image.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    background: #fff;
+    width: 312px;
+    height: 420px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+.card img{
+    width: 280px;
+    height: 100%;
+    margin: 0.5rem 0;
+}
+
+.card h1{
+    margin: 0.5rem 0;
+}
+
+.card a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.85rem;
+}
+
+.card:hover a{
+    color: orange;
 }
