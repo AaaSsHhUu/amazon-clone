@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #c6cdd2;
+    background: linear-gradient(to right,#c6cdd2,#d9e0e1);
 }
 
 #header{
@@ -255,6 +255,7 @@ body{
     cursor: pointer;
     padding: 0.5rem 1rem;
     margin: 8px 8px;
+    border-radius: 4px;
 }
 .card img{
     width: 268px;
@@ -282,8 +283,7 @@ body{
 .deal-img{
     width: 268px;
     height: 303px;
-    /* border: 1px solid black; */
-    margin: 0.4rem 0;
+    margin-bottom: 0.5rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -314,4 +314,67 @@ body{
     font-size: 0.75rem;
     color: #777 !important;
     font-weight: 300;
+}
+
+/* Horizontal Deals Container */
+.container{
+    background: #fff;
+    width: 98%;
+    min-height: 300px;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.container-heading{
+    display: flex;
+    align-items: baseline;
+}
+.container-heading h1{
+    font-size: 1.35rem;
+    margin-right: 1rem;
+}
+.container-heading a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.95rem;
+}
+.container-heading a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.container-box{
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+}
+.container-box-card{
+    background: #eee;
+}
+.container-box-card-img{
+    width: 240px;
+    height: 200px;
+}
+.container-box-card-img img{
+    width: 170px;
+    height: 183px;
+    margin: 1rem;
+}
+.container-box-card-deal p{
+    color: crimson;
+    font-size: 0.85rem;
+}
+.container-box-card-deal p span{
+    background: crimson;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+.container-box-card-deal p span b{
+    margin-right: 4px;
+}
+.container-box-card-deal p span{
+    margin-right: 5px;
 }
