@@ -348,18 +348,27 @@ body{
     display: flex;
     align-items: center;
     min-width: 100%;
+    padding-top: 20px;
 }
+
 .container-box-card{
-    background: #eee;
+    margin-right: 10px;
 }
+
 .container-box-card-img{
     width: 240px;
+    background: #eee;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-box-card-img img{
     width: 170px;
     height: 183px;
-    margin: 1rem;
+}
+.container-box-card-deal{
+    margin-top: 0.5rem;
 }
 .container-box-card-deal p{
     color: crimson;
@@ -377,4 +386,19 @@ body{
 }
 .container-box-card-deal p span{
     margin-right: 5px;
+}
+.container-box-card-price{
+    margin-top: 1rem;
+}
+.container-box-card-price p{
+    font-size: 1.2rem;
+}
+.container-box-card-price p span{
+    font-size: 0.90rem;
+    opacity: 0.8;
+    text-decoration: line-through;
+}
+.container-box-card-detail{
+    font-size: 0.80rem;
+    margin-top: 2px;
 }
